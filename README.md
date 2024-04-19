@@ -1,3 +1,7 @@
+
+## Instruction
+
+1. Create a database and run the below SQL to create a table and insert some dummy data
 ```
 CREATE TABLE clients (
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -18,3 +22,19 @@ VALUES
 ('Cristiano Ronaldo', 'cristiano.ronaldo@gmail.com', '+32447788993', 'Manchester, England'),
 ('Boris Johnson', 'boris.johnson@gmail.com', '+4499778855', 'London, England');
 ```
+<br />
+
+2. Go to config.php to edit your details
+```
+/*  Database Configuration Settings  */
+$servername = "";  // Server address
+$username = "";    // MySQL username
+$password = "";    // MySQL password (empty if not set)
+$dbname = "";      // Your DB name
+
+/* Your folder name */
+$base_url="/EXAMPLE"
+```
+<br />
+
+3. Happy Playing :)
