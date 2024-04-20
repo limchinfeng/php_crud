@@ -1,7 +1,14 @@
 
 ## Instruction
 
-1. Create a database and run the below SQL to create a table and insert some dummy data
+1. Clone the project
+```
+git clone https://github.com/limchinfeng/php_crud.git
+```
+> **_NOTE:_**  IF you are using XAMPP, make sure to clone at `htdocs` folder
+<br />
+
+2. Create a database and run the below SQL to create a table and insert some dummy data
 ```
 CREATE TABLE clients (
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -24,7 +31,7 @@ VALUES
 ```
 <br />
 
-2. Go to config.php to edit your details
+3. Go to `config.php` to edit your details
 ```
 /*  Database Configuration Settings  */
 $servername = "";  // Server address
@@ -37,4 +44,4 @@ $base_url="/EXAMPLE"
 ```
 <br />
 
-3. Happy Playing :)
+4. Happy Playing :)
